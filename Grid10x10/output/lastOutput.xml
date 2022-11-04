@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-21 17:07:28 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="networks/intelligent.net.xml"/>
+        <route-files value="routes/high.rou.xml"/>
+        <additional-files value="data.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+
+</configuration>

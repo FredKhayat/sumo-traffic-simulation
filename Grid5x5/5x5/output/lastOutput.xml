@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-10 15:13:29 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="networks/actuated.net.xml"/>
+        <route-files value="routes/low.rou.xml"/>
+        <additional-files value="data.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="output/route_info.xml"/>
+        <statistic-output value="output/hehe.xml"/>
+    </output>
+
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="gui.settings.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="51.00" id="dumb">
+        <edge id="AGGREGATED" sampledSeconds="1731.14" numEdges="120" traveltime="1973.83" overlapTraveltime="1980.30" density="1.71" laneDensity="0.01" occupancy="0.01" waitingTime="106.00" timeLoss="476.55" speed="10.00" speedRelative="0.72" departed="70" arrived="0" entered="28" left="32" laneChangedFrom="0" laneChangedTo="0"/>
+    </interval>
+</meandata>

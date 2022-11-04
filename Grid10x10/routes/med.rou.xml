@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-10 14:48:02 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+
+    <!-- Upward -->
+    <flow id="f_1" begin="0.00" departLane="random" departPos="random" fromJunction="J3" toJunction="J0" end="3614.00" vehsPerHour="1000.00"/>
+    <flow id="f_3" begin="0.00" departLane="random" departPos="random" fromJunction="J2" toJunction="J0" end="3614.00" vehsPerHour="1000.00"/>
+    <flow id="f_2" begin="0.00" departLane="random" departPos="random" fromJunction="J2" toJunction="J1" end="3614.00" vehsPerHour="1000.00"/>
+    <flow id="f_0" begin="0.00" departLane="random" departPos="random" fromJunction="J3" toJunction="J1" end="3614.00" vehsPerHour="1000.00"/>
+
+    <!-- Downward -->
+    <flow id="f_4" begin="0.00" departLane="random" departPos="random" fromJunction="J0" toJunction="J2" end="3614.00" vehsPerHour="200.00"/>
+    <flow id="f_5" begin="0.00" departLane="random" departPos="random" fromJunction="J0" toJunction="J3" end="3614.00" vehsPerHour="200.00"/>
+    <flow id="f_7" begin="0.00" departLane="random" departPos="random" fromJunction="J1" toJunction="J3" end="3614.00" vehsPerHour="200.00"/>
+    <flow id="f_6" begin="0.00" departLane="random" departPos="random" fromJunction="J1" toJunction="J2" end="3614.00" vehsPerHour="200.00"/>
+
+    <!-- Right -->
+    <flow id="f_8" begin="0.00" departLane="random" departPos="random" fromJunction="J17" toJunction="J18" end="3614.00" vehsPerHour="500.00"/>
+    <flow id="f_9" begin="0.00" departLane="random" departPos="random" fromJunction="J4" toJunction="J78" end="3614.00" vehsPerHour="500.00"/>
+
+    <!-- Left -->
+    <flow id="f_10" begin="0.00" departLane="random" departPos="random" fromJunction="J78" toJunction="J4" end="3614.00" vehsPerHour="500.00"/>
+    <flow id="f_11" begin="0.00" departLane="random" departPos="random" fromJunction="J18" toJunction="J17" end="3614.00" vehsPerHour="500.00"/>
+</routes>

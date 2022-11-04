@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-09-18 14:37:31 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="E5 E6 E7 E8 E9 E10"/>
+    <route id="r_1" edges="E11 E12 E13 E14 E15 E16"/>
+    <route id="r_10" edges="E35 E36 E37 E38 E39 E40"/>
+    <route id="r_11" edges="-E40 -E39 -E38 -E37 -E36 -E35"/>
+    <route id="r_12" edges="E41 E42 E43 E44 E45 E46"/>
+    <route id="r_13" edges="-E46 -E45 -E44 -E43 -E42 -E41"/>
+    <route id="r_14" edges="E47 E48 E49 E50 E51 E52"/>
+    <route id="r_15" edges="-E52 -E51 -E50 -E49 -E48 -E47"/>
+    <route id="r_16" edges="E53 E54 E55 E56 E57 E58"/>
+    <route id="r_17" edges="-E58 -E57 -E56 -E55 -E54 -E53"/>
+    <route id="r_18" edges="E59 E60 E61 E62 E63 E64"/>
+    <route id="r_19" edges="-E64 -E63 -E62 -E61 -E60 -E59"/>
+    <route id="r_2" edges="E17 E18 E19 E20 E21 E22"/>
+    <route id="r_3" edges="E23 E24 E25 E26 E27 E28"/>
+    <route id="r_4" edges="E29 E30 E31 E32 E33 E34"/>
+    <route id="r_5" edges="-E10 -E9 -E8 -E7 -E6 -E5"/>
+    <route id="r_6" edges="-E16 -E15 -E14 -E13 -E12 -E11"/>
+    <route id="r_7" edges="-E22 -E21 -E20 -E19 -E18 -E17"/>
+    <route id="r_8" edges="-E28 -E27 -E26 -E25 -E24 -E23"/>
+    <route id="r_9" edges="-E34 -E33 -E32 -E31 -E30 -E29"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+
+    <!-- South-North -->
+    <flow id="f_0" begin="0.00" route="r_0" end="3600.00" period="exp(0.16)"/>
+    <flow id="f_1" begin="0.00" route="r_1" end="3600.00" period="exp(0.16)"/>
+    <flow id="f_2" begin="0.00" route="r_2" end="3600.00" period="exp(0.16)"/>
+    <flow id="f_3" begin="0.00" route="r_3" end="3600.00" period="exp(0.16)"/>
+    <flow id="f_4" begin="0.00" route="r_4" end="3600.00" period="exp(0.16)"/>
+
+    <!-- North-South -->
+    <flow id="f_5" begin="0.00" route="r_5" end="3600.00" period="exp(0.06)"/>
+    <flow id="f_6" begin="0.00" route="r_6" end="3600.00" period="exp(0.06)"/>
+    <flow id="f_7" begin="0.00" route="r_7" end="3600.00" period="exp(0.06)"/>
+    <flow id="f_8" begin="0.00" route="r_8" end="3600.00" period="exp(0.06)"/>
+    <flow id="f_9" begin="0.00" route="r_9" end="3600.00" period="exp(0.06)"/>
+
+    <!-- Horizontal -->
+    <flow id="f_10" begin="0.00" route="r_10" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_11" begin="0.00" route="r_11" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_12" begin="0.00" route="r_12" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_13" begin="0.00" route="r_13" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_14" begin="0.00" route="r_14" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_15" begin="0.00" route="r_15" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_16" begin="0.00" route="r_16" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_17" begin="0.00" route="r_17" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_18" begin="0.00" route="r_18" end="3600.00" period="exp(0.085)"/>
+    <flow id="f_19" begin="0.00" route="r_19" end="3600.00" period="exp(0.085)"/>
+</routes>

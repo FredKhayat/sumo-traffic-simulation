@@ -1,0 +1,31 @@
+<configuration>
+    <input>
+        <!-- TLS Program -->
+        <!-- <net-file value="networks/new_base.net.xml"/> -->
+        <!-- <net-file value="networks/sync_relative.net.xml" /> -->
+        <!-- <net-file value="networks/sync.net.xml"/> -->
+        <net-file value="networks/intelligent.net.xml"/>
+
+
+        <!-- Trafic -->
+        <!-- <route-files value="routes/trash.rou.xml"/> -->
+        <!-- <route-files value="routes/low.rou.xml" /> -->
+        <!-- <route-files value="routes/med_low.rou.xml" /> -->
+        <!-- <route-files value="routes/med_high.rou.xml" /> -->
+        <!-- <route-files value="routes/very_high.rou.xml" /> -->
+        <!-- <route-files value="routes/very_low.rou.xml" /> -->
+        <!-- <route-files value="routes/med.rou.xml" /> -->
+        <route-files value="routes/high.rou.xml" />
+
+        <!-- Other -->
+        <!-- <gui-settings-file value="gui.settings.xml" /> -->
+
+        <!-- Output -->
+        <junction-taz value="1"/>
+        <duration-log.statistics value="1" />
+        <additional-files value="data.xml" />
+        <!-- <statistic-output value="output/hehe.xml" />
+        
+        <tripinfo-output value="output/route_info.xml"/> -->
+    </input>
+</configuration>

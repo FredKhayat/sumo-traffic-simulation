@@ -1,0 +1,8 @@
+<configuration>
+    <input>
+        <net-file value="network.net.xml"/>
+        <route-files value="sn.rou.xml" />
+        <gui-settings-file value="gui.settings.xml" />
+        <additional-files value="data.xml" />
+    </input>
+</configuration>
