@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-06 18:44:29 by Eclipse SUMO sumo Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="networks/sync.net.xml"/>
+        <route-files value="routes/ultra_high.rou.xml"/>
+        <additional-files value="data.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="4419.00" id="dumb">
+        <edge id="AGGREGATED" sampledSeconds="812405.64" numEdges="75" traveltime="3777.61" overlapTraveltime="3715.31" density="15.28" laneDensity="0.10" occupancy="0.05" waitingTime="437481.00" timeLoss="619261.10" speed="3.24" speedRelative="0.23" departed="520" arrived="1023" entered="16634" left="16131" laneChangedFrom="0" laneChangedTo="0" teleported="1"/>
+    </interval>
+</meandata>
