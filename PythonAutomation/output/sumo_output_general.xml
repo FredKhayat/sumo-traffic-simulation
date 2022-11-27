@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-27 15:38:09 by Eclipse SUMO sumo Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="networks/intelligent5.net.xml"/>
+        <route-files value="density.rou.xml"/>
+        <additional-files value="collect_data.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <output>
+        <statistic-output value="output/sumo_output_general.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="10684" inserted="10684" running="0" waiting="0"/>
+    <teleports total="482" jam="74" yield="408" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="3334" running="0" jammed="170"/>
+</statistics>

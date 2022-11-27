@@ -1,0 +1,5 @@
+<additional>
+    <edgeData id="dumb" file="output/sumo_output_network.xml" aggregate="1"/>
+    <edgeData id="dumb" file="output/sumo_output_arteries.xml" aggregate="1" edgesFile="networks/arteries.txt"/>
+    <edgeData id="dumb" file="output/sumo_output_secondaries.xml" aggregate="1" edgesFile="networks/secondary.txt"/>
+</additional>
